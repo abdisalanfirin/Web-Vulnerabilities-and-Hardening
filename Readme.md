@@ -42,6 +42,7 @@ This page is an administrative web application that serves as a simple login pag
     - If the user/password combination is correct, it will return a successful message.
     - If the user/password combination is incorrect, it will return the message, "Invalid credentials.
 
+    
     Open a browser before capturing traffic
    ![Wrong username and password inter](./Images/snap-7.PNG)
 
@@ -58,6 +59,7 @@ You've been provided with a list of administrators and the breached passwords:
 
     - Breached list of Passwords
 
+    
     Cracking all usernames and passwords using brute force attack
 ![usernames-passwords](./Images/snap-3.PNG)
 
@@ -96,6 +98,7 @@ i was able to hook into Replicants website, attempt a couple BeEF exploits. Some
 
     - Host >> Get Geolocation (Third Party)
 
+    
     Setting up fake facebook loging page
  ![Fake facbook login page](./Images/snap-4.PNG)
 
@@ -111,7 +114,7 @@ i was able to hook into Replicants website, attempt a couple BeEF exploits. Some
     Setting up fake notifaction bar
  ![Fake notifacation bar](./Images/snap-5.PNG)
 
-The fake notifavtion bar clicked
+    The fake notifavtion bar clicked
   ![Fake notifacation bar clicked](./Images/snap-y.PNG)
 
     Setting up fake Geolocation
