@@ -28,8 +28,10 @@ Reference page for my mitigation strategies.
 
 https://www.imperva.com/learn/application-security/command-injection/
 
+    Running the etc/passowrd 
 ![etc-passwd](./Images/snap-1.PNG)
 
+    Running the etc/hosts
 ![etc-host](./Images/snap-2.PNG)
 
 ### Web Application 2: A Brute Force to Be Reckoned With
@@ -40,13 +42,13 @@ This page is an administrative web application that serves as a simple login pag
     - If the user/password combination is correct, it will return a successful message.
     - If the user/password combination is incorrect, it will return the message, "Invalid credentials.
 
-    
+    Open a browser before capturing traffic
    ![Wrong username and password inter](./Images/snap-7.PNG)
 
-  
+    Capturing traffic on proxy
    ![Wrong username and password catch](./Images/snap-8.PNG)
 
-  
+    Sending capturing traffic to intruder on proxy
    ![Highlighting the username and passowrd](./Images/snap-9.PNG)
 
 I Use the web application tool Burp Suite, specifically the Burp Suite Intruder feature, to determine if any of the administrator accounts are vulnerable to a brute force attack on this web application.
@@ -56,6 +58,7 @@ You've been provided with a list of administrators and the breached passwords:
 
     - Breached list of Passwords
 
+    Cracking all usernames and passwords using brute force attack
 ![usernames-passwords](./Images/snap-3.PNG)
 
     
@@ -93,19 +96,25 @@ i was able to hook into Replicants website, attempt a couple BeEF exploits. Some
 
     - Host >> Get Geolocation (Third Party)
 
+    Setting up fake facebook loging page
  ![Fake facbook login page](./Images/snap-4.PNG)
 
+    The captured username and the password
   ![Fake google loging](./Images/snap-xxx.PNG)
   
+    Setting up fake google loging website
   ![Fake google loging](./Images/snap-xx.PNG)
   
+    Captured the username and passowrd they used
   ![Fake google loging user name and passowrd](./Images/snap-x.PNG)
 
+    Setting up fake notifaction bar
  ![Fake notifacation bar](./Images/snap-5.PNG)
 
+The fake notifavtion bar clicked
   ![Fake notifacation bar clicked](./Images/snap-y.PNG)
 
-
+    Setting up fake Geolocation
  ![Geolocation](./Images/snap-6.PNG)
 
 
